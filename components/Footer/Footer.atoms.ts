@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 
 export const FooterContainer = styled.footer(() => css({
-  backgroundColor: '#474747',
+  backgroundColor: '#141414',
   color: '#fafafa',
   fontSize: '1em',
   padding: '50px 0',

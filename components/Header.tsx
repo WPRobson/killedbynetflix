@@ -3,9 +3,11 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 
 const HeaderContainer = styled.header(() => css({
+    backgroundColor: '#141414',
     display: 'flex',
     justifyContent: 'center',
     padding: '3rem',
+    color: '#ffffff',
 }));
 
 const BrandingContainer = styled.div(() => css({
@@ -33,9 +35,9 @@ const Header = () => (
             }}>
                 <BrandingContainer>
                         <Logo>
-                            <img width="60px" src="https://static.killedbygoogle.com/com/tombstone.svg" height="60px" alt="Tombstone" />
+                            <img width="60px" src="https://static.killedbynetflix.com/com/tombstone-red.svg" height="60px" alt="Tombstone" />
                         </Logo>
-                        <Title>Killed by Google</Title>
+                        <Title>Killed by Netflix</Title>
                 </BrandingContainer>
             </a>
         </Link>

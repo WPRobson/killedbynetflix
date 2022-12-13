@@ -39,9 +39,9 @@ export default function Item(props: ProductWithSlug) {
 
   const getIcon = () => {
     return isPast() ? (
-      <Icon src='https://static.killedbygoogle.com/com/tombstone.svg' alt="Tombstone" />
+      <Icon src='https://static.killedbynetflix.com/com/tombstone-red.svg' alt="Tombstone" />
     ) : (
-      <Icon src='https://static.killedbygoogle.com/com/guillotine.svg' alt="Guillotine" />
+      <Icon src='https://static.killedbynetflix.com/com/guillotine-red.svg' alt="Guillotine" />
     );
   };
 

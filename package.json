@@ -1,10 +1,10 @@
 {
-  "name": "killedbygoogle",
+  "name": "killedbynetflix",
   "version": "3.0.0",
-  "description": "killedbygoogle.com",
+  "description": "killedbynetflix.com",
   "main": "src/index.js",
-  "repository": "git@github.com:codyogden/killedbygoogle.git",
-  "author": "Cody Ogden",
+  "repository": "git@github.com:WPRobson/killedbynetflix",
+  "author": "Will Robson",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.18.2",

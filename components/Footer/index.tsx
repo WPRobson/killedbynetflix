@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 
 // Import Styled Components
 import { FooterContainer, FlexWrap } from './Footer.atoms';
-import { PressCoverage } from '../../components';
+// import { PressCoverage } from '../../components';
 import Link from 'next/link';
 
 const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
@@ -49,6 +49,7 @@ const CopyNotice = styled.div(() => css({
 
 const Title = styled.div(() => css({
     color: '#fafafa',
+    backgroundColor: '#141414',
     fontSize: '2.5em',
     fontWeight: 'lighter',
 }));
@@ -73,14 +74,14 @@ const SocialWrapper = styled.div(() => css({
 
 const Footer = () => (
     <>
-        <PressCoverage />
+        {/* <PressCoverage /> */}
         <FooterContainer>
             <FlexWrap>
                 <FooterTitle>
                     <div css={{
                         marginRight: '10px',
                     }}>
-                        <img height="60px" width="60px" src='https://static.killedbygoogle.com/com/tombstone-alt.svg' alt="Tombstone" />
+                        <img height="60px" width="60px" src='https://static.killedbynetflix.com/com/tombstone-red.svg' alt="Tombstone" />
                     </div>
                     <Title>Killed by Google</Title>
                 </FooterTitle>
@@ -136,7 +137,7 @@ const Footer = () => (
                     <SocialLink
                         url="https://github.com/codyogden/killedbygoogle"
                         altText="GitHub"
-                        imgSrc='https://static.killedbygoogle.com/com/github.svg'
+                        imgSrc='https://static.killedbynetflix.com/com/github.svg'
                     />
                 </SocialWrapper>
             </FlexWrap>

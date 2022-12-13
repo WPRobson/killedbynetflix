@@ -14,7 +14,7 @@ const Loader = () => <LoaderContainer>
             width: '60px',
         })}
         width="60px"
-        src="https://static.killedbygoogle.com/com/knife.svg"
+        src="https://static.killedbynetflix.com/com/knife.svg"
         alt="Knife"
     />
 </LoaderContainer>;

@@ -31,7 +31,7 @@ module.exports = {
             },
             {
                 source: '/social/:path*',
-                destination: 'https://static.killedbygoogle.com/com/social/:path*',
+                destination: 'https://static.killedbynetflix.info/com/social/:path*',
             }
         ]
     },

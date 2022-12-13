@@ -1,4 +1,6 @@
 import { FC, useEffect, useState } from 'react';
+import styled from '@emotion/styled';
+import { css } from '@emotion/react';
 
 import { FilterType } from '../types/Filter';
 import { ProductType, ProductWithSlug } from '../types/Product';
@@ -14,6 +16,7 @@ const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
     const [listItems, updateListItems] = useState(items);
     const [searchTerm, updateSearchTerm] = useState('');
     const [activeFilter, updateActiveFilter] = useState<ProductType|FilterType>(FilterType.ALL);
+
 
     useEffect(() => {
         const regexp = new RegExp(searchTerm.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
@@ -37,8 +40,14 @@ const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
             window.umami.trackEvent(searchTerm, 'search');
     }, [searchTerm]);
 
+    const divStyle = {
+        color: 'white',
+        backgroundColor: '#141414',
+      };
+
     return (
         <>
+        <div style={divStyle}>
             {items.length ? <>
                 <Controls>
                     <Search searchCallback={updateSearchTerm} />
@@ -49,6 +58,7 @@ const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 </Controls>
                 <List items={listItems} />
             </> : <Loader />}
+            </div>
         </>
     );
 }
