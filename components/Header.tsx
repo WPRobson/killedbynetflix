@@ -35,7 +35,7 @@ const Header = () => (
             }}>
                 <BrandingContainer>
                         <Logo>
-                            <img width="60px" src="https://static.killedbynetflix.com/com/tombstone-red.svg" height="60px" alt="Tombstone" />
+                            <img width="60px" src="tombstone-red.svg" />
                         </Logo>
                         <Title>Killed by Netflix</Title>
                 </BrandingContainer>

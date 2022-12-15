@@ -1,16 +1,13 @@
 ---
 name: "Add an Obituary \U0001F480"
-about: Report a dead or dying product to Killed by Google.
+about: Report a dead or dying show to Killed by Netflix.
 
 ---
 
-**What's the Product's Name?**
+**What's the shows's Name?**
 
-**Describe the product in a single sentence.**
+**Describe the show in a single sentence.**
 
-**When was the product launched? Provide a specific date, if possible.**
+**When was the show released? Provide a specific date, if possible.**
 
-**When was the product discontinued? Provide a specific date, if possible.**
-
-**What type of product was it? App, Service, or Hardware?**
-
+**When was the show cancelled? Provide a specific date, if possible.**

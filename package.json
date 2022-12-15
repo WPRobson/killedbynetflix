@@ -1,7 +1,7 @@
 {
   "name": "killedbynetflix",
   "version": "3.0.0",
-  "description": "killedbynetflix.com",
+  "description": "killedbynetflix.info",
   "main": "src/index.js",
   "repository": "git@github.com:WPRobson/killedbynetflix",
   "author": "Will Robson",

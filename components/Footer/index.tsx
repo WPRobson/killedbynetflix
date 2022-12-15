@@ -79,52 +79,33 @@ const Footer = () => (
                     <div css={{
                         marginRight: '10px',
                     }}>
-                        <img height="60px" width="60px" src='https://static.killedbynetflix.com/com/tombstone-red.svg' alt="Tombstone" />
+                        <img height="60px" width="60px" src='tombstone-red.svg' alt="Tombstone" />
                     </div>
-                    <Title>Killed by Google</Title>
+                    <Title>Killed by Netflix</Title>
                 </FooterTitle>
                 <div>
                     <p>
-                        Killed by Google is the Google graveyard; a free and open source
-                        list of discontinued Google services, products, devices, and apps.
-                        We aim to be a source of factual information about the history
-                        surrounding Google&apos;s dead projects.
+                        Killed by Netflix is the Netflix graveyard; a free and open source
+                        list of discontinued Netflix shows.
           </p>
                     <p>
                         <a
-                            href="https://github.com/codyogden/killedbygoogle/graphs/contributors"
+                            href="https://github.com/WPRobson/killedbynetflix/graphs/contributors"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             Contributors
             </a>
             &nbsp;from around the world help compile, research, and maintain the
-            information about dying and dead Google products. You can join the
+            information about canceled Netflix shows. You can join the
             discussion on&nbsp;
-            <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>. A project
-            by&nbsp;
-            <a
-                            href="https://codyogden.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Cody Ogden
-            </a>
-            .
+            <a href="https://github.com/WPRobson/killedbynetflix">GitHub</a>.
           </p>
-                    <p>
-                        Press inquiries and other assorted death threats?
-            <br />
-            Throw a&nbsp;
-            <a href="mailto:knife@killedbygoogle.com">
-                            knife@killedbygoogle.com
-            </a>
-            .
-          </p>
+
                 </div>
                 <CopyNotice>
-                    <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
-                        &copy; 2022 Cody Ogden.
+                    <a href="https://github.com/WPRobson/killedbynetflix/blob/main/LICENSE">
+                        &copy; 2022 Will Robson.
           </a>
           &nbsp;-&nbsp;
           <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
@@ -133,9 +114,9 @@ const Footer = () => (
                 </CopyNotice>
                 <SocialWrapper>
                     <SocialLink
-                        url="https://github.com/codyogden/killedbygoogle"
+                        url="https://github.com/WPRobson/killedbynetflix"
                         altText="GitHub"
-                        imgSrc='https://static.killedbynetflix.com/com/github.svg'
+                        imgSrc='https://static.killedbynetflix.info/com/github.svg'
                     />
                 </SocialWrapper>
             </FlexWrap>

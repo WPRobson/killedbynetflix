@@ -40,8 +40,8 @@ export default function Carbon(props: CarbonProps) {
         document.querySelector(`#${name}`)?.appendChild(script);
     }, [name, placement, serve])
 
-    if (showFallback) {
-        return <FallbackAd />;
-    }
+    // if (showFallback) {
+    //     return <FallbackAd />;
+    // }
     return <div id={name} />;
 }

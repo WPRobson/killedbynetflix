@@ -110,18 +110,18 @@ const AdPlaceholder = styled.a(() => css({
 
 export const FallbackAd = () => <></>;
 
-const showAd = () => {
-    if (process.env.NODE_ENV === 'production')
-        return (
-            <Carbon
-                name="kbg-carbon"
-                placement="killedbygooglecom"
-                serve="CK7I653N"
-                fallback={<FallbackAd />}
-            />
-        );
-    return <FallbackAd />
-};
+// const showAd = () => {
+//     if (process.env.NODE_ENV === 'production')
+//         return (
+//             <Carbon
+//                 name="kbg-carbon"
+//                 placement="killedbyneflixcom"
+//                 serve="CK7I653N"
+//                 fallback={<FallbackAd />}
+//             />
+//         );
+//     return <FallbackAd />
+// };
 
 type Props = {
     items: ProductWithSlug[]
@@ -129,10 +129,10 @@ type Props = {
 
 const List: React.FC<Props> = ({ items }) => (
     <ListContainer>
-        <AdContainer>
+        {/* <AdContainer>
             <SRT>Advertisement</SRT>
             {showAd()}
-        </AdContainer>
+        </AdContainer> */}
         {items.map(item => (
             <Item key={item.slug} {...item} />
         ))}
