@@ -22,14 +22,6 @@ module.exports = {
     rewrites() {
         return [
             {
-                source: '/umami.js',
-                destination: 'https://analytics.bale.media/umami.js'
-            },
-            {
-                source: '/api/collect',
-                destination: 'https://analytics.bale.media/api/collect',
-            },
-            {
                 source: '/social/:path*',
                 destination: 'https://static.killedbynetflix.info/com/social/:path*',
             }

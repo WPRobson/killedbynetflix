@@ -107,10 +107,6 @@ const Footer = () => (
                     <a href="https://github.com/WPRobson/killedbynetflix/blob/main/LICENSE">
                         &copy; 2022 Will Robson.
           </a>
-          &nbsp;-&nbsp;
-          <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
-                        Analytics
-          </a>
                 </CopyNotice>
                 <SocialWrapper>
                     <SocialLink
