@@ -46,7 +46,35 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
   return (
     <label id="listFilter">
       <SRT>Filter Graveyard List</SRT>
-      <Select defaultValue={selectOptions[0]} options={selectOptions} onChange={changeHandler} instanceId="filter-select" />
+      <Select defaultValue={selectOptions[0]} options={selectOptions} onChange={changeHandler} instanceId="filter-select" styles={{
+    control: (baseStyles, state) => ({
+      ...baseStyles,
+      backgroundColor: '#141414',
+      color: 'white'
+    }),
+        menu: base => ({
+      ...base,
+      backgroundColor: '#141414',
+      borderRadius: 0,
+      marginTop: 0,
+    }),
+    option: provided => ({
+      ...provided,
+      color: 'white'
+    }),
+    singleValue: provided => ({
+      ...provided,
+      color: 'white'
+    }),
+  }}
+  theme={(theme) => ({
+    ...theme,
+    colors: {
+      ...theme.colors,
+      primary25: 'grey',
+      primary: 'black',
+    },
+  })}/>
     </label>
   );
 }

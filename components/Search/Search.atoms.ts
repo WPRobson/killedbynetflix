@@ -7,8 +7,8 @@ export const SearchContainer = styled.div(() => css({
 
 export const SearchBox = styled.input(() => css({
   backgroundColor: 'transparent',
-  border: 'none',
-  borderBottom: '1px solid #cfcfcf',
+  border: '1px solid #cfcfcf',
+  color: '#cfcfcf',
   boxSizing: 'border-box',
   display: 'blcok',
   fontSize: '1.25em',
