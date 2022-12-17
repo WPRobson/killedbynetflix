@@ -4,7 +4,6 @@ import { ProductType } from './Product';
 
 export enum FilterType {
     ALL = 'all',
-    APP = 'app',
-    SERVICE = 'service',
-    HARDWARE = 'hardware',
+    SERIES = 'series',
+    FILM = 'film',
 }

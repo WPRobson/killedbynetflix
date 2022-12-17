@@ -14,11 +14,12 @@
 
 To add a product, gather the following information:
 
-- Name of Show (`name`)
+- Name (`name`)
 - Release Date (`dateOpen`)
-- Cancelled Date (`dateClose`)
+- Last episode (`dateClose`)
 - Description (`description`)
 - IMDB Link (`link`)
+- Type (`type`)
 
 
 If you are not familiar with or do not want to use `git`, submit a [new issue](https://github.com/WPRobson/killedbynetflix/issues/new?template=add-an-obituary.md) requesting the change. If you are already familiar with `git`, follow these steps:

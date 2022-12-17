@@ -23,17 +23,13 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
       label: `All (${items.length})`,
     },
     {
-      value: FilterType.APP,
-      label: `Apps (${getCount('app')})`,
+      value: FilterType.SERIES,
+      label: `Series (${getCount('series')})`,
     },
     {
-      value: FilterType.SERVICE,
-      label: `Services (${getCount('service')})`,
+      value: FilterType.FILM,
+      label: `Film (${getCount('film')})`,
     },
-    {
-      value: FilterType.HARDWARE,
-      label: `Hardware (${getCount('hardware')})`,
-    }
   ];
 
   const changeHandler = (arg: SingleValue<Option>): void => {
