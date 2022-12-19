@@ -5,6 +5,7 @@
     "description": "Secrets are just part of daily life in the small Pennsylvania town of Hemlock Grove, where the darkest evils hide in plain sight.",
     "link": "https://www.imdb.com/title/tt2309295/",
     "name": "Hemlock Grove",
+    "seasons": 3,
     "type": "series"
   },
   {
@@ -13,6 +14,7 @@
     "dateClose": "2016-04-13",
     "link": "https://www.imdb.com/title/tt5228026/",
     "description": "No rules. No expectations. A half hour to make their mark. Eight different comedians each get an episode to show their skills in comedy.",
+    "seasons": 1,
     "type": "series"
   },
   {
@@ -21,6 +23,7 @@
     "dateClose": "2017-05-26",
     "link": "https://www.imdb.com/title/tt3520702/",
     "description": "KA family is forced to face their past secrets and scars when the black sheep returns home.",
+    "seasons": 3,
     "type": "series"
   },
   {
@@ -29,6 +32,124 @@
     "dateClose": "2016-07-01",
     "link": "https://www.imdb.com/title/tt2189461/",
     "description": "In a world replete with greed, betrayal, sexual intrigue and rivalry, Marco Polo is based on the famed explorer's adventures in Kublai Khan's court in 13th century Mongolia.",
+    "seasons": 2,
+    "type": "series"
+  },
+  {
+    "name": "The Get Down",
+    "dateOpen": "2016-08-12",
+    "dateClose": "2017-04-07",
+    "link": "https://www.imdb.com/title/tt4592410/",
+    "description": "A ragtag group of teenagers run wild in the streets of the Bronx in the late 1970s.",
+    "seasons": 1,
+    "type": "series"
+  },
+  {
+    "name": "Sense8",
+    "dateOpen": "2015-06-05",
+    "dateClose": "2018-06-08",
+    "link": "https://www.imdb.com/title/tt2431438/",
+    "description": "A group of people around the world are suddenly linked mentally, and must find a way to survive being hunted by those who see them as a threat to the world's order.",
+    "seasons": 2,
+    "type": "series"
+  },
+  {
+    "name": "Girlboss",
+    "dateOpen": "2017-04-21",
+    "dateClose": "2017-04-21",
+    "link": "https://www.imdb.com/title/tt5706996/",
+    "description": "Sophia, a misfit, discovers a passion for fashion, becoming an unlikely businesswoman in the process. As her business grows, however, she has to learn to cope with life as her own boss.",
+    "seasons": 1,
+    "type": "series"
+  },
+  {
+    "name": "Gypsy",
+    "dateOpen": "2017-06-30",
+    "dateClose": "2017-06-30",
+    "link": "https://www.imdb.com/title/tt5503718/",
+    "description": "Therapist Jean Holloway becomes too immersed in the lives of her patients.",
+    "seasons": 1,
+    "type": "series"
+  },
+  {
+    "name": "Chelsea",
+    "dateOpen": "2016-05-11",
+    "dateClose": "2017-12-15",
+    "link": "https://www.imdb.com/title/tt5672036/",
+    "description": "Chelsea Handler interviews celebrities, academics, and professionals in her new show on Netflix.",
+    "seasons": 2,
+    "type": "series"
+  },
+  {
+    "name": "Haters Back Off",
+    "dateOpen": "2016-10-14",
+    "dateClose": "2017-10-20",
+    "link": "https://www.imdb.com/title/tt5467814/",
+    "description": "The odd ball family life of Miranda Sings, an incredibly confident, totally untalented star on the rise who continues to fail upward by the power of her belief that she was born famous, it's just no one knows it yet.",
+    "seasons": 2,
+    "type": "series"
+  },
+  {
+    "name": "Lady Dynamite",
+    "dateOpen": "2016-05-20",
+    "dateClose": "2017-11-10",
+    "link": "https://www.imdb.com/title/tt4789300/",
+    "description": "Series is based on what Maria has accepted to be her life. The occasionally surreal episodes, refracted across multiple periods of the actor/comedian's life, tell the story of a woman who loses - and then finds - herself.",
+    "seasons": 2,
+    "type": "series"
+  },
+  {
+    "name": "Disjointed",
+    "dateOpen": "2017-08-25",
+    "dateClose": "2018-01-12",
+    "link": "https://www.imdb.com/title/tt5884792/",
+    "description": "Cannabis legend Ruth Whitefeather Feldman employs her newly graduated son and a team of young budtenders to help run her Los Angeles marijuana dispensary.",
+    "seasons": 1,
+    "type": "series"
+  },
+  {
+    "name": "Everything Sucks!",
+    "dateOpen": "2018-02-16",
+    "dateClose": "2018-02-16",
+    "link": "https://www.imdb.com/title/tt7078710/",
+    "description": "In 1990s Oregon, members of a high school A/V club clash with the drama club.",
+    "seasons": 1,
+    "type": "series"
+  },
+  {
+    "name": "The Break with Michelle Wolf",
+    "dateOpen": "2018-05-27",
+    "dateClose": "2018-06-29",
+    "link": "https://www.imdb.com/title/tt8010342/",
+    "description": "Comedian Michelle Wolf riffs on the latest topics and trends of the day.",
+    "seasons": 1,
+    "type": "series"
+  },
+  {
+    "name": "The Joel McHale Show with Joel McHale",
+    "dateOpen": "2018-02-18",
+    "dateClose": "2018-07-15",
+    "link": "https://www.imdb.com/title/tt7895706/",
+    "description": "Joel McHale, the snarky star of Community (2009), ridicules the silliest moments reality television, internet videos and TV from around the world have to offer.",
+    "seasons": 1,
+    "type": "series"
+  },
+  {
+    "name": "Iron Fist",
+    "dateOpen": "2017-03-17",
+    "dateClose": "2018-09-07",
+    "link": "https://www.imdb.com/title/tt3322310/",
+    "description": "A young man is bestowed with incredible martial arts skills and a mystical force known as the Iron Fist.",
+    "seasons": 2,
+    "type": "series"
+  },
+  {
+    "name": "All About the Washingtons",
+    "dateOpen": "2018-08-10",
+    "dateClose": "2018-08-10",
+    "link": "https://www.imdb.com/title/tt7661368/",
+    "description": "The wife of a legendary rapper launches her own career, which puts his life into a tailspin.",
+    "seasons": 1,
     "type": "series"
   }
 ]

@@ -92,6 +92,11 @@ const isValidDate = async (value, dateOpen = false) => {
             name: 'description',
             message: 'Description (single sentence, start with product name, past tense)',
         },
+        {
+            type: 'input',
+            name: 'seasons',
+            message: 'number of seasons',
+        },
     ];
 
     const typePrompt = new Select({

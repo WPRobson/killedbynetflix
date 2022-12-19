@@ -29,12 +29,12 @@ export default function Item(props: ProductWithSlug) {
   };
 
   const getYears = () => {
-    const duration = formatDistance(parseISO(props.dateClose), parseISO(props.dateOpen));
+    // const duration = formatDistance(parseISO(props.dateClose), parseISO(props.dateOpen));
 
     if (!isPast()) {
-      return ` It will be ${duration} old.`;
+      return ` It will end on season ${props.seasons}.`;
     }
-    return ` It was ${duration} old.`;
+    return ` It ran for ${props.seasons} seasons.`;
   };
 
   const getIcon = () => {
@@ -91,7 +91,7 @@ export default function Item(props: ProductWithSlug) {
           </a>
         </h2>
         <Description>
-          {(isPast()) ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
+          {(isPast()) ? `Cancelled ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
           {props.description}
           {getYears()}
         </Description>

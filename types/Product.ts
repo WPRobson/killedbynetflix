@@ -9,6 +9,7 @@ export interface Product {
   dateClose: string;
   dateOpen: string;
   link: string;
+  seasons: Number;
   type: ProductType;
 }
 
