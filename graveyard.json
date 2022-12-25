@@ -151,5 +151,32 @@
     "description": "The wife of a legendary rapper launches her own career, which puts his life into a tailspin.",
     "seasons": 1,
     "type": "series"
+  },
+  {
+    "name": "American Vandal",
+    "dateOpen": "2017-09-15",
+    "dateClose": "2018-09-14",
+    "link": "https://www.imdb.com/title/tt6877772/",
+    "description": "A true-crime satire that explores the aftermath of a costly high school prank that left twenty-seven faculty cars vandalized with phallic images.",
+    "seasons": 2,
+    "type": "series"
+  },
+  {
+    "name": "Luke Cage",
+    "dateOpen": "2016-09-30",
+    "dateClose": "2018-06-22",
+    "link": "https://www.imdb.com/title/tt3322314/",
+    "description": "When a sabotaged experiment gives him super strength and unbreakable skin, Luke Cage becomes a fugitive attempting to rebuild his life in Harlem and must confront his past and fight a battle for the heart of his city.",
+    "seasons": 2,
+    "type": "series"
+  },
+  {
+    "name": "Daredevil",
+    "dateOpen": "2015-04-10",
+    "dateClose": "2018-10-19",
+    "link": "https://www.imdb.com/title/tt3322312/",
+    "description": "A blind lawyer by day, vigilante by night. Matt Murdock fights the crime of New York as Daredevil.",
+    "seasons": 3,
+    "type": "series"
   }
 ]
